@@ -23,3 +23,6 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 Made by [DevSkills](https://devskills.co). 
 
 Did you find this repo useful? **Give us a shout on [Twitter](https://twitter.com/DevSkillsHQ) / [LinkedIn](https://www.linkedin.com/company/devskills)**.
+
+
+[![Tests](https://github.com/GreenGard/backend-boilerplate-java-springboot_/actions/workflows/tests.yml/badge.svg)](https://github.com/GreenGard/backend-boilerplate-java-springboot_/actions/workflows/tests.yml)
