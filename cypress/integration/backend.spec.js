@@ -24,7 +24,7 @@ describe('Backend Test Spec', () => {
         expect(response.status).to.eq(404);
       });
     });
-  })
+
 
 it('should get transactions', () => {
 
@@ -35,11 +35,10 @@ it('should get transactions', () => {
   }).then((response) => {
     expect(response.status).to.eq(200);
   });
-
+});
 
 it('should not get an account', () => {
   const nonExistingTransactionId = "non-existing-id";
-
   cy.request({
     method: 'GET',
     url: `${apiUrl}/accounts/1`,
@@ -49,6 +48,7 @@ it('should not get an account', () => {
   });
 
 });
-});
+
+})
 
 
